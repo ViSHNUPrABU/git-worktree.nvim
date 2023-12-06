@@ -178,7 +178,7 @@ local telescope_git_worktree = function(opts)
                     end
                 else
                     widths[key] = math.max(val, strings.strdisplaywidth(entry[key] or ""))
-                -- end
+                end
             end
 
             table.insert(results, index, entry)
